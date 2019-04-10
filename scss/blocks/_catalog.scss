@@ -70,6 +70,21 @@
 	margin-top: 3px;
 }
 
+.catalog__link:hover::after {
+	margin-left: 20px;
+	transition-duration: 500ms;
+	transition-property: margin-left;
+}
+
+.catalog__link:active {
+	opacity: 0.4;
+}
+
+.catalog__link:active::after {
+	opacity: 0.9;
+}
+
+
 //Стили для планшета
 
 @media (min-width: 768px) {
@@ -131,6 +146,12 @@
 	margin-left: 20px;
 	margin-top: 6px;
 }
+
+.catalog__link:hover::after {
+	margin-left: 40px;
+	transition-duration: 500ms;
+	transition-property: margin-left;
+}
 }
 
 @media (min-width: 1040px) {
@@ -181,6 +202,12 @@
 
 .catalog__text {
 	max-width: 100%;
+}
+
+.catalog__link:hover:after {
+	transition-duration: 500ms;
+	transition-property: margin-left;
+	margin-left: 40px;
 }
 }
 

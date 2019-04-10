@@ -564,6 +564,22 @@
   margin-top: 3px;
 }
 
+.catalog__link:hover::after {
+  margin-left: 20px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: margin-left;
+  transition-property: margin-left;
+}
+
+.catalog__link:active {
+  opacity: 0.4;
+}
+
+.catalog__link:active::after {
+  opacity: 0.9;
+}
+
 @media (min-width: 768px) {
   .catalog__header {
     font-size: 36px;
@@ -615,6 +631,13 @@
     margin-left: 20px;
     margin-top: 6px;
   }
+  .catalog__link:hover::after {
+    margin-left: 40px;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -webkit-transition-property: margin-left;
+    transition-property: margin-left;
+  }
 }
 
 @media (min-width: 1040px) {
@@ -662,6 +685,13 @@
   }
   .catalog__text {
     max-width: 100%;
+  }
+  .catalog__link:hover:after {
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -webkit-transition-property: margin-left;
+    transition-property: margin-left;
+    margin-left: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
