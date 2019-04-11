@@ -72,7 +72,7 @@
 
 .catalog__link:hover::after {
 	margin-left: 20px;
-	transition-duration: 500ms;
+	transition-duration: 1s;
 	transition-property: margin-left;
 }
 
@@ -149,7 +149,7 @@
 
 .catalog__link:hover::after {
 	margin-left: 40px;
-	transition-duration: 500ms;
+	transition-duration: 1s;
 	transition-property: margin-left;
 }
 }
@@ -205,7 +205,7 @@
 }
 
 .catalog__link:hover:after {
-	transition-duration: 500ms;
+	transition-duration: 1s;
 	transition-property: margin-left;
 	margin-left: 40px;
 }
