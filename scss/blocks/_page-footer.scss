@@ -1,0 +1,118 @@
+.page-footer {
+	background-color: #f2f2f2;
+	margin-top: -5px;
+}
+
+.page-footer__logo-text {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #000;
+	border-bottom: 1px solid #d9d9d9;
+	padding-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+.page-footer__logo-text span {
+	font-weight: bold;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.social__icon {
+	height: 30px;
+}
+
+.social__vk {
+	background: url("../img/social-vk.svg") no-repeat;
+	width: 23px;
+	margin-top: 12px;
+}
+
+.social__inst {
+	background: url("../img/social-inst.svg") no-repeat;
+	width: 17px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.social__fb {
+	background: url("../img/social-fb.svg") no-repeat;
+	width: 9px;
+	margin-top: 10px;
+}
+
+.academy {
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.academy__link {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 14px;
+	color: #444444;
+	text-decoration: none;
+	margin-top: 17px;
+}
+
+.academy__logo {
+	width: 27px;
+}
+
+.social__vk:hover {
+	background: url("../img/social-vk-hover.svg") no-repeat;
+}
+
+.social__inst:hover {
+	background: url("../img/social-inst-hover.svg") no-repeat;
+}
+
+.social__fb:hover {
+	background: url("../img/social-fb-hover.svg") no-repeat;
+}
+
+//Стили для планшета
+
+@media (min-width: 768px) {
+.page-footer__wrap {
+	display: flex;
+	justify-content: space-between;
+	height: 150px;
+	align-items: center;
+}
+
+.social,
+.page-footer__logo-text {
+	border: none;
+}
+
+.academy {
+	width: 170px;
+}
+
+.page-footer__logo-text {
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.social__vk {
+	width: 35px;
+}
+
+.social__inst {
+	width: 25px;
+}
+
+.social__fb {
+	width: 15px;
+}
+}

@@ -14,4 +14,16 @@
 
 // Блок с преимуществами
 
-  @import "blocks/hiw"
+	@import "blocks/hiw";
+
+// Блок "До и После"
+
+@import "blocks/before-after";
+
+// Блок контакты и карта
+
+@import "blocks/contacts";
+
+// Подвал
+
+@import "blocks/page-footer";

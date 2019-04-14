@@ -32,7 +32,7 @@ h2 {
 
 }
 .advantage {
-	width: 40%;
+	width: 45%;
 	flex-wrap: wrap;
 	max-width: 400px;
 	position: relative;
@@ -110,11 +110,11 @@ h2 {
 }
 
 //Стили для десктоп
-
-@media (min-width: 1300px) {
-.advantage {
-	width: 20%;
+@media (min-width: 1040px) {
+.advantage { 
+	width: 22%;
 }
+
 .hiw__advantage3 {
 	margin-top: 0px;
 }
@@ -123,3 +123,4 @@ h2 {
 	margin-top: 0px;
 }
 }
+

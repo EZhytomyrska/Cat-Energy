@@ -1,0 +1,71 @@
+.contacts__map {
+	width: 100%;
+}
+
+.contacts__info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contacts__header {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	width: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contacts__text {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 14px;
+	color: #444444;
+	width: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+//Стили для планшета
+
+@media (min-width: 768px) {
+.contacts__header {
+	font-size: 20px;
+	width: 170px;
+}
+
+.contacts__text {
+	font-size: 16px;
+	width: 170px;
+}
+}
+
+@media (min-width: 1040px) {
+.contacts__map {
+	display: none;
+}
+
+.contacts {
+	background: url("../img/map-desktop.jpg") no-repeat;
+	height: 400px;
+	background-size: cover;
+	position: relative;
+}
+
+.contacts__info {
+	width: 570px;
+	height: 200px;
+	background-color: #fff;
+	position: absolute;
+	top: 30%;
+}
+
+.contacts__header {
+	margin: auto 0;
+	width: 170px;
+}
+
+.contacts__text {
+	margin: auto 0;
+	width: 170px;
+}
+}
