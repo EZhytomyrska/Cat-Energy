@@ -69,6 +69,8 @@
 }
 
 .navbar__logo-text span {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -976,52 +978,6 @@ h2 {
   }
 }
 
-/*.cat-changes {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding-bottom: 30px;
-}
-
-.cat-changes__button--before,
-.cat-changes__button--after {
-	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
-	text-transform: uppercase;
-	border: none;
-	background-color: #f2f2f2;
-}
-
-.cat-changes__switcher {
-	width: 84px;
-	position: relative;
-}
-
-.cat-changes__scale {
-	width: 84px;
-	height: 14px;
-	position: absolute;
-	top: 25%;
-}
-
-.cat-changes__switch {
-	width: 35px;
-	height: 6px;
-	margin-top: 4px;
-	position: absolute;
-	top: 42%;
-	left: 6%;
-}
-
-.cat-changes img {
-	margin: auto;
-	
-}
-.cat-changes__after,
-.cat-changes__before {
-	display: none;
-}
-*/
 .contacts__map {
   width: 100%;
 }
